@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.9",
+    "mongoose-slug-plugin": "^2.1.0"
+  },
+  "scripts": {
+    "start": "nodemon"
+  },
+  "name": "mongo-event-planner",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cupld/mongo-event-planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cupld/mongo-event-planner/issues"
+  },
+  "homepage": "https://github.com/cupld/mongo-event-planner#readme",
+  "description": ""
+}
