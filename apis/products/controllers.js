@@ -47,7 +47,7 @@ exports.updateEvent = async(req,res) => {
 exports.searchOne = async(req,res) => {
     const {eventName} = req.params;
     try{
-    const oneEvent = Event.findOne({name: eventName}, req.body);
+    const oneEvent = Event.findOne({name: eventName});
     res.json(oneEvent);
 }
 catch(error){
